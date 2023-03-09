@@ -1,0 +1,383 @@
+1667242011930	geckodriver	INFO	Listening on 127.0.0.1:49689
+1667242033976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofilePGsanV"
+*** You are running in headless mode.
+1667242034697	Marionette	INFO	Marionette enabled
+1667242034711	Marionette	INFO	Listening on port 49700
+1667242035169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://2942424f-722f-4c1a-947c-550bef3ebf63/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {dd3d7613-0246-469d-bc65-2a3cc1668adc}.412316860427
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {d634138d-c276-4fc8-924b-40a0ea21d284}.412316860426
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1667242042565	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: moz-extension://2942424f-722f-4c1a-947c-550bef3ebf63/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilePGsanV\thumbnails) because it does not exist
+1667247188210	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1667247188229	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1667247188232	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1667247188243	FirefoxAccounts	ERROR	error GETing /account/device/commands?index=0: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1667247188243	Sync.SyncScheduler	ERROR	Fetching missed remote commands failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1667247188303	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {dd3d7613-0246-469d-bc65-2a3cc1668adc}.412316860845
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860837
+IPDL protocol Error: Received an invalid file descriptor
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://5dce80da-18e2-4ade-a6f3-789159042287/content.js
+JavaScript warning: moz-extension://633770c8-7cc7-4ec7-8556-4ded4335809a/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilePGsanV\thumbnails) because it does not exist
+1667251729401	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1667251729457	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilePGsanV\thumbnails) because it does not exist
+ld.jsm, line 112: Error: sendRemoveListener on closed conduit {dd3d7613-0246-469d-bc65-2a3cc1668adc}.412316860869
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860866
+JavaScript warning: moz-extension://941a2dc4-9888-4362-8859-7aafa8770160/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEaS3P5\thumbnails) because it does not exist
+1667251729380	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1667251729429	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEaS3P5\thumbnails) because it does not exist
+1667258174213	geckodriver	INFO	Listening on 127.0.0.1:59945
+1667258189376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofiley9pi2B"
+*** You are running in headless mode.
+1667258190062	Marionette	INFO	Marionette enabled
+1667258190072	Marionette	INFO	Listening on port 59953
+1667258190555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 67: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+Extension error: InvalidStateError: An exception was thrown undefined 296
+[[Exception stack
+checkOpenTabs@moz-extension://409fa6fe-a541-417d-ab49-2a0f2facdee3/ctBackground.js:296:16
+@moz-extension://409fa6fe-a541-417d-ab49-2a0f2facdee3/ctBackground.js:204:4
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:628:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2527:39
+]]
+JavaScript error: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/content-script/preload.js, line 136: TypeError: null has no properties
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/7JEUJG1jVChIMuhiOxVurQN9pIQLeBNKr_aiZz5iC5Y.js line 2 > eval line 7648 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofiley9pi2B\thumbnails) because it does not exist
+1667258295982	geckodriver	INFO	Listening on 127.0.0.1:60102
+1667258311317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofile7pztLz"
+*** You are running in headless mode.
+1667258312207	Marionette	INFO	Marionette enabled
+1667258312216	Marionette	INFO	Listening on port 60110
+1667258312444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript warning: https://www.google.com/js/bg/7JEUJG1jVChIMuhiOxVurQN9pIQLeBNKr_aiZz5iC5Y.js line 2 > eval line 332 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile7pztLz\thumbnails) because it does not exist
+1667433530980	geckodriver	INFO	Listening on 127.0.0.1:61660
+1667433566193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofileEi4rJz"
+*** You are running in headless mode.
+1667433568102	Marionette	INFO	Marionette enabled
+1667433568114	Marionette	INFO	Listening on port 61678
+1667433569124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 1103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEi4rJz\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEi4rJz\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEi4rJz\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEi4rJz\thumbnails) because it does not exist
+JavaScript warning: https://www.google.com/js/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 1103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileEi4rJz\thumbnails) because it does not exist
+1668176435938	geckodriver	INFO	Listening on 127.0.0.1:52309
+1668176505754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofile7VTX1a"
+*** You are running in headless mode.
+1668176507252	Marionette	INFO	Marionette enabled
+1668176507265	Marionette	INFO	Listening on port 50590
+1668176509333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 67: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+Extension error: InvalidStateError: An exception was thrown undefined 296
+[[Exception stack
+checkOpenTabs@moz-extension://409fa6fe-a541-417d-ab49-2a0f2facdee3/ctBackground.js:296:16
+@moz-extension://409fa6fe-a541-417d-ab49-2a0f2facdee3/ctBackground.js:204:4
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:628:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2527:39
+]]
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {d634138d-c276-4fc8-924b-40a0ea21d284}.549755814181
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.549755814173
+1668176561506	Marionette	INFO	Stopped listening on port 50590
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1668176645980	geckodriver	INFO	Listening on 127.0.0.1:54387
+1668176710637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofileULwHG1"
+*** You are running in headless mode.
+1668176712125	Marionette	INFO	Marionette enabled
+1668176712149	Marionette	INFO	Listening on port 54415
+1668176712795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 6851 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668176941953	geckodriver	INFO	Listening on 127.0.0.1:52005
+1668177001797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofile7K6c4T"
+*** You are running in headless mode.
+1668177003126	Marionette	INFO	Marionette enabled
+1668177003137	Marionette	INFO	Listening on port 52076
+1668177003644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 3666 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668178263783	geckodriver	INFO	Listening on 127.0.0.1:56041
+1668178309906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofileDH2Ahr"
+*** You are running in headless mode.
+1668178311671	Marionette	INFO	Marionette enabled
+1668178311681	Marionette	INFO	Listening on port 56061
+1668178312959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 3417 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileDH2Ahr\thumbnails) because it does not exist
+1668182156360	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668182156473	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668182156477	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668182156917	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileDH2Ahr\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileDH2Ahr\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileDH2Ahr\thumbnails) because it does not exist
+1668202119768	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: T1668202120150	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668202120178	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668202120180	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668202121429	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1668202129181	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_E1668202129721	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1668202129725	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1668202129725	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1668202129726	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1535:18) JS Stack trace: _error@FxAccounts.jsm:1535:18
+_errorToErrorClass@FxAccounts.jsm:1527:17
+getOAuthToken@FxAccounts.jsm:500:28
+1668202129727	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1535:18) JS Stack trace: _error@FxAccounts.jsm:1535:18
+_errorToErrorClass@FxAccounts.jsm:1527:17
+getOAuthToken@FxAccounts.jsm:500:28
+1JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileCpDfB3\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileCpDfB3\thumbnails) because it does not exist
+jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilebUsNZJavaScript error: resource://gre/modules/JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilebUsNZB\thumbnails) because it does not exist
+JavaScript warning: https://getcoldturkey.com/blocked/4.2/assets/jquery-1.9.0.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+tsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668202120978	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilek7UXgd\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilek7UXgd\thumbnails) because it does not exist
+1668211206994	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://getcoldturkey.com/blocked/4.2/assets/jquery-1.9.0.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+RROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668202120242	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileznirPN\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileznirPN\thumbnails) because it does not exist
+1668211212869	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://getcoldturkey.com/blocked/4.2/assets/jquery-1.9.0.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1668202129218	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1668202129221	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1668202129222	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]","message":null,"code":null,"errno":null}
+1668202129222	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1535:18) JS Stack trace: _error@FxAccounts.jsm:1535:18
+_errorToErrorClass@FxAccounts.jsm:1527:17
+getOAuthToken@FxAccounts.jsm:500:28
+1668202129223	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1535:18) JS Stack trace: _error@FxAccounts.jsm:1535:18
+_errorToErrorClass@FxAccounts.jsm:1527:17
+getOAuthToken@FxAccounts.jsm:500:28
+1668202129422	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1668202129422	Sync.ErrorHandler	ERROR	Sync encountered an error: {"data":"0","url":"https://sync-1-us-west1-JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofiledHltj0\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofiledHltj0\thumbnails) because it does not exist
+ Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofiledYIGpU\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofiledYIGpU\thumbnails) because it does not exist
+1668527886600	geckodriver	INFO	Listening on 127.0.0.1:64712
+1668527940936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofileKSSF5Q"
+*** You are running in headless mode.
+1668527942400	Marionette	INFO	Marionette enabled
+1668527942422	Marionette	INFO	Listening on port 64740
+1668527943236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 4304 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileKSSF5Q\thumbnails) because it does not exist
+" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofilefVbG2h"
+*** You are running in headless mode.
+1668528022401	Marionette	INFO	Marionette enabled
+1668528022419	Marionette	INFO	Listening on port 64981
+1668528023713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 7614 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilefVbG2h\thumbnails) because it does not exist
+t	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 508: TypeError: this.contentWindow is null
+JavaScript error: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/content-script/common-script.js, line 31: InvalidStateError: An exception was thrown
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 2995 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileP3craE\thumbnails) because it does not exist
+Exception trying to format object for log message: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.js:228:21) JS Stack trace: _processResponse/<@resource.js:228:21
+get@sys.mjs:57:51
+format@Log.jsm:643:19
+formatText@Log.jsm:572:44
+format@Log.jsm:590:12
+append@Log.jsm:683:37
+append@logmanager.js:149:44
+log@Log.jsm:380:16
+debug@Log.jsm:400:10
+observe@policies.js:875:21
+observe@observers.js:133:21
+notify@observers.js:85:18
+notify@util.js:194:19
+WrappedNotify@util.js:204:17
+1668529507906	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+s.cloneScope is null
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlB1668528537151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilefskYLn\thumbnails) because it does not exist
+1668530951081	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668530951404	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 982 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileRiCen4\thumbnails) because it does not exist
+nt	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {d634138d-c276-4fc8-924b-40a0ea21d284}.549755814186
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.549755814185
+1668528694565	Marionette	INFO	Stopped listening on port 50125
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=167cfbb1300","state":{"remoteTypePrefix":"webIsolated"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3782,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:387","chrome://global/content/elements/browser-custom-element.js:construct:986","chrome://global/content/elements/browser-custom-element.js:connectedCallback:325","chrome://browser/content/tabbrowser.js:_insertBrowser:2348","chrome://browser/content/tabbrowser.js:addTab:2837","chrome://browser/content/tabbrowser.js:addTrustedTab:2549","chrome://browser/content/tabbrowser.js:addMultipleTabs:3020","resource:///modules/sessionstore/SessionStore.jsm:ssi_restoreWindow:4369","resource:///modules/sessionstore/SessionStore.jsm:_restoreWindowsFeaturesAndTabs:4534","resource:///modules/sessionstore/SessionStore.jsm:_restoreWindowsInReversedZOrder:4558","resource:///modules/sessionstore/SessionStore.jsm:ssi_restoreWindows/<:4618"]},{"name":"ContentParent: id=167cf611000","state":{"remoteTypePrefix":"webIsolated"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3782,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164"]}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))
+1668528803744	geckodriver	INFO	Listening on 127.0.0.1:55421
+1668528867125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofileIAPV0T"
+*** You are running in headless mode.
+1668528868579	Marionette	INFO	Marionette enabled
+1668528868590	Marionette	INFO	Listening on port 55480
+1668528869544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileIAPV0T\thumbnails) because it does not exist
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 869 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+orSWGL failed mapping default framebuffer, no dt
+1668528954779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 2117 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile5rWfPK\thumbnails) because it does not exist
+1668530952895	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668530953239	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+onduitsChild.jsm, line 67: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+Extension error: InvalidStateError: An exception was thrown undefined 296
+[[Exception stack
+checkOpenTabs@moz-extension://409fa6fe-a541-417d-ab49-2a0f2facdee3/ctBackground.js:296:16
+@moz-extension://409fa6fe-a541-417d-ab49-2a0f2facdee3/ctBackground.js:204:4
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:628:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2527:39
+]]
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.549755813897
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile4UPSdY\thumbnails) because it does not exist
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 4639 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+t	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 3091 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofileZB75IJ\thumbnails) because it does not exist
+1668529215791	Marionette	INFO	Stopped listening on port 55335
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {d634138d-c276-4fc8-924b-40a0ea21d284}.549755814198
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.549755814190
+1668632195539	geckodriver	INFO	Listening on 127.0.0.1:54683
+1668632273979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofile9EgLoj"
+*** You are running in headless mode.
+1668632274812	Marionette	INFO	Marionette enabled
+1668632274823	Marionette	INFO	Listening on port 50578
+1668632275333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 7411 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile9EgLoj\thumbnails) because it does not exist
+1668639664989	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668639665128	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668639665130	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668639665168	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile9EgLoj\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile9EgLoj\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofile9EgLoj\thumbnails) because it does not exist
+1668652584017	Marionette	INFO	Stopped listening on port 50578
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {d634138d-c276-4fc8-924b-40a0ea21d284}.549755814207
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.549755814206
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=1e988bf3900","state":{"remoteTypePrefix":"webIsolated"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3782,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164"]}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))
+[Parent 23836, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668698437075	geckodriver	INFO	Listening on 127.0.0.1:63369
+1668698518213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\zcalv\\AppData\\Local\\Temp\\rust_mozprofilehk5Qps"
+*** You are running in headless mode.
+1668698519629	Marionette	INFO	Marionette enabled
+1668698519682	Marionette	INFO	Listening on port 63413
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1668698521352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilehk5Qps\thumbnails) because it does not exist
+JavaScript warning: https://www.google.com/js/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 3437 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilehk5Qps\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilehk5Qps\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilehk5Qps\thumbnails) because it does not exist
+1668727281897	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 489\"  data: no]"}
+1668727281902	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668727281953	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1668727281960	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1668727282006	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\zcalv\AppData\Local\Temp\rust_mozprofilehk5Qps\thumbnails) because it does not exist
+JavaScript warning: https://www.google.com/js/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 3437 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript warning: https://www.google.com/js/bg/8OILUsdyI9UIGDjMPI5DXdvKx-uKZmDCUTmdrjrzFb0.js line 2 > eval line 4700 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://f21a1619-ccd4-44f4-9b7b-8d712a25316d/lib/filter/antibanner.js, line 1176: unreachable code after return statement
+1668728026135	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1668728204990	Marionette	INFO	Stopped listening on port 58845
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit {d634138d-c276-4fc8-924b-40a0ea21d284}.549755814193
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.549755814204
